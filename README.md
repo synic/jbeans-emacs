@@ -10,7 +10,7 @@ with Emacs 24.
 
 ## Screenshot
 
-![](https://github.com/edran/jbeans-emacs-emacs/blob/master/screenshot.jpeg)
+![Screenshot](https://raw.githubusercontent.com/synic/jbeans-emacs/master/screenshot.png)
 
 ## Installation
 
