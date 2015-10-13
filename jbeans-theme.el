@@ -284,6 +284,22 @@
        `(smerge-refined-change ((,class (:foreground ,jbeans-green-0))))
        `(sp-pair-overlay-face ((((class color) (min-colors 89)) (:background ,jbeans-grey-6))))
        `(sp-show-pair-match-face ((((class color) (min-colors 89)) (:background ,jbeans-grey-5))))
+       `(spaceline-evil-normal ((,class (:foreground ,jbeans-bg :background ,jbeans-orange-1))))
+       `(spaceline-evil-motion ((,class (:foreground ,jbeans-bg :background ,jbeans-purple-4))))
+       `(spaceline-evil-insert ((,class (:foreground ,jbeans-bg :background ,jbeans-green-3))))
+       `(spaceline-evil-visual ((,class (:foreground ,jbeans-bg :background ,jbeans-grey-5))))
+       `(spaceline-evil-replace ((,class (:foreground ,jbeans-bg :background ,jbeans-red-0))))
+       `(spaceline-evil-emacs ((,class (:foreground ,jbeans-bg :background ,jbeans-blue-2))))
+       `(spacemacs-normal-face ((,class (:foreground ,jbeans-bg :background ,jbeans-orange-1))))
+       `(spacemacs-motion-face ((,class (:foreground ,jbeans-bg :background ,jbeans-purple-4))))
+       `(spacemacs-insert-face ((,class (:foreground ,jbeans-bg :background ,jbeans-green-3))))
+       `(spacemacs-visual-face ((,class (:foreground ,jbeans-bg :background ,jbeans-grey-5))))
+       `(spacemacs-lisp-face ((,class (:foreground ,jbeans-bg :background ,jbeans-purple-2))))
+       `(spacemacs-replace-face ((,class (:foreground ,jbeans-bg :background ,jbeans-red-0))))
+       `(spacemacs-iedit-face ((,class (:foreground ,jbeans-bg :background ,jbeans-red-13))))
+       `(spacemacs-iedit-insert-face ((,class (:foreground ,jbeans-bg :background ,jbeans-red-13))))
+       `(spacemacs-evilfied-face ((,class (:foreground ,jbeans-bg :background ,jbeans-green-10))))
+       `(spacemacs-emacs-face ((,class (:foreground ,jbeans-bg :background ,jbeans-blue-2))))
        `(trailing-whitespace ((,class (:background ,jbeans-red-1))))
        `(web-mode-builtin-face ((,class (:foreground ,jbeans-blue-0))))
        `(web-mode-html-attr-name-face ((,class (:foreground ,jbeans-purple-0))))
@@ -298,4 +314,9 @@
 
 (provide-theme 'jbeans)
 
+;; Local Variables:
+;; no-byte-compile: t
+;; indent-tabs-mode: nil
+;; eval: (when (require 'rainbow-mode nil t) (rainbow-mode 1))
+;; End:
 ;;; jbeans-theme.el ends here
