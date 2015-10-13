@@ -298,7 +298,7 @@
        `(spacemacs-replace-face ((,class (:foreground ,jbeans-bg :background ,jbeans-red-0))))
        `(spacemacs-iedit-face ((,class (:foreground ,jbeans-bg :background ,jbeans-red-13))))
        `(spacemacs-iedit-insert-face ((,class (:foreground ,jbeans-bg :background ,jbeans-red-13))))
-       `(spacemacs-evilified-face ((,class (:foreground ,jbeans-bg :background ,jbeans-green-10))))
+       `(spacemacs-evilified-face ((,class (:foreground ,jbeans-bg :background ,jbeans-green-7))))
        `(spacemacs-emacs-face ((,class (:foreground ,jbeans-bg :background ,jbeans-blue-2))))
        `(trailing-whitespace ((,class (:background ,jbeans-red-1))))
        `(web-mode-builtin-face ((,class (:foreground ,jbeans-blue-0))))
