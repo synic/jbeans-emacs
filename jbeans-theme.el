@@ -15,7 +15,7 @@
 (deftheme jbeans "The jbeans color theme")
 
 (let ((class '((class color) (min-colors 89)))
-      (jbeans-fg "#ffffff")
+      (jbeans-fg "#cccccc")
       (jbeans-bg "#000000")
       (jbeans-blue-0 "#8fbfdc")
       (jbeans-blue-1 "#0b24fb")
@@ -94,6 +94,7 @@
        `(compilation-mode-line-fail ((,class (:foreground ,jbeans-red-0))))
        `(compilation-mode-line-run ((,class (:foreground ,jbeans-yellow-0))))
        `(neo-dir-link-face ((t (:foreground ,jbeans-purple-0))))
+       `(neo-file-link-face ((t (:foreground ,jbeans-fg))))
        `(diredp-date-time ((,class (:foreground ,jbeans-green-0))))
        `(diredp-deletion ((,class (:foreground ,jbeans-red-0 :background ,jbeans-bg))))
        `(diredp-dir-heading ((,class (:foreground ,jbeans-yellow-0 :background ,jbeans-bg))))
