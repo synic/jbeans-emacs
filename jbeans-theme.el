@@ -165,8 +165,10 @@
        `(ediff-odd-diff-A ((t (:background ,jbeans-grey-6 :foreground ,jbeans-fg))))
        `(ediff-odd-diff-B ((t (:background ,jbeans-grey-13 :foreground ,jbeans-fg))))
        `(ediff-odd-diff-C ((t (:background ,jbeans-grey-5 :foreground ,jbeans-fg))))
-       `(powerline-active1 ((t (:inherit mode-line :background ,jbeans-grey-13))))
+       `(powerline-active1 ((t (:inherit mode-line :background ,jbeans-bg))))
        `(powerline-active2 ((t (:inherit mode-line :background ,jbeans-grey-13))))
+       `(powerline-inactive1 ((t (:inherit mode-line :background ,jbeans-bg))))
+       `(powerline-inactive2 ((t (:inherit mode-line :background ,jbeans-grey-6))))
 ;;;;; flycheck
        `(flycheck-error
          ((((supports :underline (:style wave)))
@@ -266,8 +268,8 @@
        `(magit-tag ((t (:foreground ,jbeans-yellow-4))))
        `(match ((,class (:background ,jbeans-red-1))))
        `(minibuffer-prompt ((,class (:foreground ,jbeans-fg))))
-       `(mode-line ((,class (:foreground ,jbeans-fg :background nil))))
-       `(mode-line-inactive ((,class (:foreground ,jbeans-grey-4 :background nil))))
+       `(mode-line ((,class (:foreground ,jbeans-fg :background ,jbeans-grey-2))))
+       `(mode-line-inactive ((,class (:foreground ,jbeans-grey-10 :background ,jbeans-grey-2))))
        `(org-checkbox ((,class (:foreground ,jbeans-green-0))))
        `(org-date ((,class (:foreground ,jbeans-purple-0))))
        `(org-done ((,class (:foreground ,jbeans-green-0))))
