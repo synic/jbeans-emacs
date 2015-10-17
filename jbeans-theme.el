@@ -15,8 +15,8 @@
 (deftheme jbeans "The jbeans color theme")
 
 (let ((class '((class color) (min-colors 89)))
-      (jbeans-fg "#cccccc")
-      (jbeans-bg "#000000")
+      (jbeans-fg         "#cccccc")
+      (jbeans-bg         "#000000")
       (jbeans-grey-0     "#151515")
       (jbeans-grey-1     "#1c1c1c")
       (jbeans-grey-2     "#112433")
