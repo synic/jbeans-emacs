@@ -6,7 +6,7 @@
 ;; "What do you mean, no one calls you JBeans?!  I call you JBeans!"
 ;; -- Wilbur
 
-;; Original Author: Mark Tran <mark.tran@gmail.com>
+;; Based on ujelly by Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
 ;; Package-Version: 20150807.2136
 ;; Version: 1.1.14
