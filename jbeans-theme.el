@@ -151,6 +151,7 @@
 ;;;;; Helm
        `(helm-visible-mark ((t (:background ,jbeans-green-5 :foreground ,jbeans-bg))))
        `(helm-buffer-file ((,class (:foreground ,jbeans-fg))))
+       `(helm-buffer-directory ((,class (:foreground ,jbeans-blue-0))))
        `(helm-buffer-process ((,class (:foreground ,jbeans-yellow-4))))
        `(helm-buffer-size ((,class (:foreground ,jbeans-fg))))
        `(helm-candidate-number ((,class (:foreground ,jbeans-fg :background ,jbeans-bg))))
