@@ -2,6 +2,7 @@
 
 ;; Author: Adam Olsen <arolsen@gmail.com>
 ;; Version: 1.0
+;; Package-Requires: ((emacs "24"))
 ;; Based On: ujelly by Mark Tran
 ;; "What do you mean, no one calls you JBeans?!  I call you JBeans!"
 ;; -- Wilbur
