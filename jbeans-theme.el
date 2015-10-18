@@ -104,6 +104,8 @@
        `(diredp-exec-priv ((,class (:foreground ,jbeans-orange-1 :background ,jbeans-bg))))
        `(diredp-file-name ((,class (:foreground ,jbeans-green-1))))
        `(diredp-file-suffix ((,class (:foreground ,jbeans-grey-11))))
+       `(diredp-flag-mark ((,class (:foreground ,jbeans-blue-0 :weight bold))))
+       `(diredp-flag-mark-line ((,class (:foreground ,jbeans-purple-4 :weight bold))))
        `(diredp-link-priv ((,class (:foreground ,jbeans-fg))))
        `(diredp-number ((,class (:foreground ,jbeans-grey-8))))
        `(diredp-no-priv ((,class (:foreground ,jbeans-fg :background ,jbeans-bg))))
