@@ -97,6 +97,8 @@
        `(compilation-mode-line-fail ((,class (:foreground ,jbeans-red-1))))
        `(compilation-mode-line-run ((,class (:foreground ,jbeans-yellow-4))))
 ;;;;; Dired
+       `(diredp-compressed-file-name ((,class (:foreground ,jbeans-red-8))))
+       `(diredp-compressed-file-suffix ((,class (:foreground ,jbeans-grey-11))))
        `(diredp-date-time ((,class (:foreground ,jbeans-green-8))))
        `(diredp-deletion ((,class (:foreground ,jbeans-red-1 :background ,jbeans-bg))))
        `(diredp-dir-heading ((,class (:foreground ,jbeans-yellow-4 :background ,jbeans-bg))))
@@ -169,7 +171,7 @@
        `(helm-swoop-target-word-face ((,class (:foreground ,jbeans-red-4))))
 ;;;;; Highlight
        `(highlight ((t (:background ,jbeans-grey-4))))
-       `(hl-line ((,class (:background ,jbeans-grey-3))))
+       `(hl-line ((,class (:background ,jbeans-grey-0))))
 ;;;;; iSearch
        `(isearch ((,class (:foreground ,jbeans-fg :background ,jbeans-red-4))))
        `(isearch-fail ((,class (:background ,jbeans-red-4))))
