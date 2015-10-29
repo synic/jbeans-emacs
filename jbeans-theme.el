@@ -160,8 +160,6 @@
        `(helm-buffer-process ((,class (:foreground ,jbeans-yellow-4))))
        `(helm-buffer-size ((,class (:foreground ,jbeans-fg))))
        `(helm-candidate-number ((,class (:foreground ,jbeans-fg :background ,jbeans-bg))))
-       `(helm-ff-directory ((,class (:background ,jbeans-bg))))
-       `(helm-ff-file ((,class (:foreground ,jbeans-fg))))
        `(helm-grep-lineno ((,class (:foreground ,jbeans-fg))))
        `(helm-match ((,class (:foreground ,jbeans-red-4 :background ,jbeans-bg))))
        `(helm-moccur-buffer ((,class (:foreground ,jbeans-yellow-4))))
@@ -169,6 +167,8 @@
        `(helm-source-header ((,class (:foreground ,jbeans-yellow-4 :background ,jbeans-grey-1))))
        `(helm-swoop-target-line-face ((,class (:foreground ,jbeans-fg :background ,jbeans-grey-6))))
        `(helm-swoop-target-word-face ((,class (:foreground ,jbeans-red-4))))
+       `(helm-ff-file ((,class (:foreground ,jbeans-bg))))
+       `(helm-ff-directory ((,class (:foreground ,jbeans-blue-2))))
 ;;;;; Highlight
        `(highlight ((t (:background ,jbeans-grey-4))))
        `(hl-line ((,class (:background ,jbeans-grey-0))))
