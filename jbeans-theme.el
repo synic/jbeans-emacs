@@ -190,7 +190,7 @@
        `(ediff-odd-diff-B                    ((,class (:background ,jbeans-grey-4 :foreground ,jbeans-fg))))
        `(ediff-odd-diff-C                    ((,class (:background ,jbeans-grey-5 :foreground ,jbeans-fg))))
        `(powerline-active1                   ((,class (:inherit mode-line :background ,jbeans-bg))))
-       `(powerline-active2                   ((,class (:inherit mode-line :background ,jbeans-grey-7))))
+       `(powerline-active2                   ((,class (:inherit mode-line :background ,jbeans-grey-4))))
        `(powerline-inactive1                 ((,class (:inherit mode-line :background ,jbeans-bg))))
        `(powerline-inactive2                 ((,class (:inherit mode-line :background ,jbeans-grey-3))))
 ;;;;; flycheck
@@ -294,7 +294,7 @@
 ;;;;; Minibuffer
        `(minibuffer-prompt                   ((,class (:foreground ,jbeans-fg))))
 ;;;;; Modeline
-       `(mode-line                           ((,class (:foreground ,jbeans-fg :background ,jbeans-grey-7))))
+       `(mode-line                           ((,class (:foreground ,jbeans-fg :background ,jbeans-grey-4))))
        `(mode-line-inactive                  ((,class (:foreground ,jbeans-grey-8 :background ,jbeans-grey-0))))
 ;;;;; NeoTree
        `(neo-dir-link-face                   ((,class (:foreground ,jbeans-blue-0))))
