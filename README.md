@@ -14,6 +14,20 @@ with Emacs 24.
 
 ## Installation
 
+### package.el
+
+jbeans is available in [MELPA](http://melpa.org/).
+
+You can install `jbeans` with the following command:
+
+`M-x package-install jbeans-theme`
+
+To load it automatically on Emacs startup add this to your init file:
+
+```lisp
+(load-theme 'jbeans t)
+```
+
 ### Manual
 
 Download `jbeans-theme.el` to the directory `~/.emacs.d/themes/`. Add this to
