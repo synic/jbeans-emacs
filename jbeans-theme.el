@@ -1,17 +1,16 @@
 ;;; jbeans-theme.el --- Jbeans theme for GNU Emacs 24 (deftheme)
 
 ;; Author: Adam Olsen <arolsen@gmail.com>
-;; Version: 1.0
+;; URL: <https://github.com/synic/jbeans-emacs>
+;; Version: 1.2
 ;; Package-Requires: ((emacs "24"))
 ;; Based On: ujelly by Mark Tran
+;; Package-Version: 20150807.2136
 ;; "What do you mean, no one calls you JBeans?!  I call you JBeans!"
 ;; -- Wilbur
 
 ;; Based on ujelly by Mark Tran <mark.tran@gmail.com>
-;; URL: http://github.com/marktran/color-theme-ujelly
-;; Package-Version: 20150807.2136
-;; Version: 1.1.14
-
+;; Orig-URL: http://github.com/marktran/color-theme-ujelly
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme jbeans "The jbeans color theme")
 
