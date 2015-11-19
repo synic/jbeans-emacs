@@ -77,6 +77,8 @@
       (custom-theme-set-faces
        'jbeans
        `(default                             ((,class (:foreground ,jbeans-fg :background ,jbeans-bg))))
+;;;;; ACE/Avy
+       `(aw-leading-char-face                ((,class (:foreground ,jbeans-red-3 :height 1.2))))
 ;;;;; Alchemist
        `(alchemist-test--failed-face         ((,class (:foreground ,jbeans-red-1))))
        `(alchemist-test--success-face        ((,class (:foreground ,jbeans-green-8))))
@@ -180,6 +182,14 @@
        `(ido-only-match                      ((,class (:foreground ,jbeans-green-8))))
        `(ido-subdir                          ((,class (:foreground ,jbeans-fg))))
        `(ido-virtual                         ((,class (:foreground ,jbeans-blue-0))))
+;;;;; Jabber
+       `(jabber-activity-personal-face       ((,class (:foreground ,jbeans-green-9 :weight bold))))
+       `(jabber-activity-face                ((,class (:foreground ,jbeans-red-3 :weight bold))))
+       `(jabber-roster-user-online           ((,class (:foreground ,jbeans-blue-0))))
+       `(jabber-roster-user-dnd              ((,class (:foreground ,jbeans-red-3))))
+       `(jabber-chat-prompt-system           ((,class (:foreground ,jbeans-green-9))))
+       `(jabber-chat-prompt-local            ((,class (:foreground ,jbeans-blue-0))))
+       `(jabber-chat-prompt-foreign          ((,class (:foreground ,jbeans-green-3))))
 ;;;;; Lazy highlight
        `(lazy-highlight                      ((,class (:foreground ,jbeans-red-4 :background nil))))
 ;;;;; Linum
