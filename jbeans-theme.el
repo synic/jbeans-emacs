@@ -366,8 +366,11 @@
 ;;;;; Web Mode
        `(web-mode-builtin-face               ((,class (:foreground ,jbeans-blue-1))))
        `(web-mode-html-attr-name-face        ((,class (:foreground ,jbeans-blue-0))))
-       `(web-mode-html-tag-face              ((,class (:foreground ,jbeans-fg))))
+       `(web-mode-html-tag-face              ((,class (:foreground ,jbeans-orange-0))))
        `(web-mode-symbol-face                ((,class (:foreground ,jbeans-blue-3))))
+       `(web-mode-function-name-face         ((,class (:foreground ,jbeans-orange-0))))
+       `(web-mode-block-control-face         ((,class (:foreground ,jbeans-red-1))))
+       `(web-mode-variable-name-face         ((,class (:foreground ,jbeans-blue-2))))
 ;;;;; More Whitespace
        `(whitespace-trailing                 ((,class (:background ,jbeans-red-4))))))
 
