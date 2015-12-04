@@ -359,6 +359,11 @@
        `(spacemacs-iedit-insert-face         ((,class (:foreground ,jbeans-bg :background ,jbeans-red-10))))
        `(spacemacs-evilified-face            ((,class (:foreground ,jbeans-bg :background ,jbeans-green-4))))
        `(spacemacs-emacs-face                ((,class (:foreground ,jbeans-bg :background ,jbeans-blue-5))))
+;;;;; TabBar
+       `(tabbar-default                      ((,class (:inherit variable-pitch :background ,jbeans-bg :foreground ,jbeans-grey-10 :height 0.8))))
+       `(tabbar-modified                     ((,class (:inherit tabbar-default :foreground ,jbeans-green-8 :box (:line-width 1 :color ,jbeans-grey-5 style: released-button)))))
+       `(tabbar-selected                     ((,class (:inherit tabbar-default :foreground ,jbeans-blue-0 :box (:line-width 1 :color ,jbeans-fg style: released-button)))))
+       `(tabbar-unselected                   ((,class (:inherit tabbar-default :box (:line-width 1 :color ,jbeans-grey-8 style: released-button)))))
 ;;;;; Whitespace
        `(trailing-whitespace                 ((,class (:background ,jbeans-red-4))))
 ;;;;; Vertical border
