@@ -5,7 +5,8 @@
 ;; Version: 1.2
 ;; Package-Requires: ((emacs "24"))
 ;; Based On: ujelly by Mark Tran
-;; Package-Version: 20150807.2136
+;; Package-Version: 20151204.934
+;; Package-X-Original-Version: 20150807.2136
 ;; "What do you mean, no one calls you JBeans?!  I call you JBeans!"
 ;; -- Wilbur
 
@@ -323,13 +324,13 @@
        `(org-date                            ((,class (:foreground ,jbeans-blue-0))))
        `(org-document-title                  ((,class (:foreground ,jbeans-red-12))))
        `(org-done                            ((,class (:foreground ,jbeans-green-8))))
-       `(org-level-1                         ((,class (:foreground ,jbeans-red-2))))
-       `(org-level-2                         ((,class (:foreground ,jbeans-red-1))))
-       `(org-level-3                         ((,class (:foreground ,jbeans-red-1))))
+       `(org-level-1                         ((,class (:foreground ,jbeans-yellow-1))))
+       `(org-level-2                         ((,class (:foreground ,jbeans-yellow-3))))
+       `(org-level-3                         ((,class (:foreground ,jbeans-yellow-3))))
        `(org-link                            ((,class (:foreground ,jbeans-blue-1))))
        `(org-special-keyword                 ((,class (:foreground ,jbeans-blue-0))))
        `(org-table                           ((,class (:foreground ,jbeans-orange-0))))
-       `(org-todo                            ((,class (:foreground ,jbeans-yellow-4))))
+       `(org-todo                            ((,class (:foreground ,jbeans-red-1))))
 ;;;;; Region
        `(region                              ((,class (:background ,jbeans-grey-4))))
 ;;;;; SHM
