@@ -219,6 +219,10 @@
        `(git-commit-comment-file             ((,class (:background ,jbeans-bg :foreground ,jbeans-fg))))
        `(git-commit-summary                  ((,class (:background ,jbeans-bg :foreground ,jbeans-blue-0))))
        `(git-commit-comment-heading          ((,class (:foreground ,jbeans-yellow-3))))
+;;;;; Git-gutter
+       `(git-gutter-fr+-modified             ((,class (:foreground ,jbeans-blue-4 :background ,jbeans-bg))))
+       `(git-gutter-fr+-added                ((,class (:foreground ,jbeans-green-7 :background ,jbeans-bg))))
+       `(git-gutter-fr+-deleted              ((,class (:foreground ,jbeans-red-8 :background ,jbeans-bg))))
 ;;;;; Magit
        `(magit-blame-heading                 ((,class (:background ,jbeans-grey-0 :box ,jbeans-green-3 :weight bold :foreground ,jbeans-fg))))
        `(magit-blame-date                    ((,class (:background ,jbeans-grey-0 :box ,jbeans-green-3 :weight bold :foreground ,jbeans-green-5))))
