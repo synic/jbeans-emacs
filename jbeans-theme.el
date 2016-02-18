@@ -161,17 +161,27 @@
        `(helm-swoop-target-word-face         ((,class (:foreground ,jbeans-red-4))))
        `(helm-ff-file                        ((,class (:foreground ,jbeans-fg))))
        `(helm-ff-directory                   ((,class (:foreground ,jbeans-blue-2))))
+       `(helm-ff-executable                  ((,class (:foreground ,jbeans-green-5))))
 ;;;;; Highlight
        `(highlight                           ((,class (:background ,jbeans-grey-3))))
        `(hl-line                             ((,class (:background ,jbeans-grey-0))))
 ;;;;; iSearch
        `(isearch                             ((,class (:foreground ,jbeans-fg :background ,jbeans-red-4))))
        `(isearch-fail                        ((,class (:background ,jbeans-red-4))))
-;;;;; ido
+;;;;; Ido
        `(ido-first-match                     ((,class (:foreground ,jbeans-yellow-3))))
        `(ido-only-match                      ((,class (:foreground ,jbeans-green-5))))
        `(ido-subdir                          ((,class (:foreground ,jbeans-fg))))
-       `(ido-virtual                         ((,class (:foreground ,jbeans-blue-0))))
+       `(ido-virtual                         ((,class (:foreground
+                                                       ,jbeans-blue-0))))
+;;;;; Ivy
+       `(ivy-current-match                   ((,class (:background ,jbeans-grey-3))))
+       `(ivy-minibuffer-match-face-1         ((,class (:foreground ,jbeans-yellow-3))))
+       `(ivy-minibuffer-match-face-2         ((,class (:foreground ,jbeans-orange-0))))
+       `(ivy-minibuffer-match-face-3         ((,class (:foreground ,jbeans-blue-1))))
+       `(ivy-minibuffer-match-face-4         ((,class (:foreground ,jbeans-purple-1))))
+       `(ivy-subdir                          ((,class (:foreground ,jbeans-green-4))))
+       `(ivy-modified-buffer                 ((,class (:foreground ,jbeans-red-2))))
 ;;;;; Jabber
        `(jabber-activity-personal-face       ((,class (:foreground ,jbeans-green-6 :weight bold))))
        `(jabber-activity-face                ((,class (:foreground ,jbeans-red-3 :weight bold))))
@@ -220,9 +230,9 @@
        `(git-commit-summary                  ((,class (:background ,jbeans-bg :foreground ,jbeans-blue-0))))
        `(git-commit-comment-heading          ((,class (:foreground ,jbeans-yellow-3))))
 ;;;;; Git-gutter
-       `(git-gutter-fr+-modified             ((,class (:foreground ,jbeans-blue-4 :background ,jbeans-bg))))
-       `(git-gutter-fr+-added                ((,class (:foreground ,jbeans-green-7 :background ,jbeans-bg))))
-       `(git-gutter-fr+-deleted              ((,class (:foreground ,jbeans-red-8 :background ,jbeans-bg))))
+       `(git-gutter-fr+-modified             ((,class (:foreground ,jbeans-blue-3 :background ,jbeans-bg))))
+       `(git-gutter-fr+-added                ((,class (:foreground ,jbeans-green-2 :background ,jbeans-bg))))
+       `(git-gutter-fr+-deleted              ((,class (:foreground ,jbeans-red-5 :background ,jbeans-bg))))
 ;;;;; Magit
        `(magit-blame-heading                 ((,class (:background ,jbeans-grey-0 :box ,jbeans-green-3 :weight bold :foreground ,jbeans-fg))))
        `(magit-blame-date                    ((,class (:background ,jbeans-grey-0 :box ,jbeans-green-3 :weight bold :foreground ,jbeans-green-5))))
