@@ -315,7 +315,7 @@
 ;;;;; Match
        `(match                               ((,class (:background ,jbeans-red-4))))
 ;;;;; Minibuffer
-       `(minibuffer-prompt                   ((,class (:foreground ,jbeans-fg))))
+       `(minibuffer-prompt                   ((,class (:foreground ,jbeans-red-1))))
 ;;;;; Modeline
        `(mode-line                           ((,class (:foreground ,jbeans-fg :background ,jbeans-grey-3))))
        `(mode-line-inactive                  ((,class (:foreground ,jbeans-grey-6 :background ,jbeans-grey-0))))
