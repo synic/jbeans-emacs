@@ -153,6 +153,7 @@
        `(helm-buffer-size                    ((,class (:foreground ,jbeans-fg))))
        `(helm-candidate-number               ((,class (:foreground ,jbeans-fg :background ,jbeans-bg))))
        `(helm-grep-lineno                    ((,class (:foreground ,jbeans-fg))))
+       `(helm-grep-finish                    ((,class (:foreground ,jbeans-blue-2))))
        `(helm-match                          ((,class (:foreground ,jbeans-red-4 :background ,jbeans-bg))))
        `(helm-moccur-buffer                  ((,class (:foreground ,jbeans-yellow-3))))
        `(helm-selection                      ((,class (:background ,jbeans-grey-3))))
