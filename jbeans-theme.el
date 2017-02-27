@@ -64,6 +64,10 @@
       (jbeans-red-9      (if (display-graphic-p) "#ffdddd" "#ffdddd"))
       )
 
+      (custom-theme-set-variables
+        'jbeans
+        `(linum-format " %5i "))
+
       (custom-theme-set-faces
        'jbeans
        `(default                             ((,class (:foreground ,jbeans-fg :background ,jbeans-bg))))
@@ -194,7 +198,7 @@
 ;;;;; Lazy highlight
        `(lazy-highlight                      ((,class (:foreground ,jbeans-red-4 :background nil))))
 ;;;;; Linum
-       `(linum                               ((,class (:slant italic :foreground ,jbeans-grey-4))))
+       `(linum                               ((,class (:foreground ,jbeans-grey-5 :background ,jbeans-grey-0))))
 ;;;;; Ediff
        `(ediff-even-diff-A                   ((,class (:background ,jbeans-grey-2 :foreground ,jbeans-fg))))
        `(ediff-even-diff-B                   ((,class (:background ,jbeans-grey-3 :foreground ,jbeans-fg))))
