@@ -17,7 +17,7 @@
 (let ((class '((class color) (min-colors 89)))
       ;;                                            GUI       TER
       (jbeans-fg         (if (display-graphic-p) "#cccccc" "#cccccc"))
-      (jbeans-bg         (if (display-graphic-p) "#000000" "#000000"))
+      (jbeans-bg         (if (display-graphic-p) "#151515" "#151515"))
       (jbeans-grey-0     (if (display-graphic-p) "#151515" "#151515"))
       (jbeans-grey-1     (if (display-graphic-p) "#112433" "#112433"))
       (jbeans-grey-2     (if (display-graphic-p) "#222222" "#222222"))
@@ -66,7 +66,7 @@
 
       (custom-theme-set-variables
         'jbeans
-        `(linum-format " %5i "))
+        `(linum-format " %3i "))
 
       (custom-theme-set-faces
        'jbeans
@@ -198,7 +198,7 @@
 ;;;;; Lazy highlight
        `(lazy-highlight                      ((,class (:foreground ,jbeans-red-4 :background nil))))
 ;;;;; Linum
-       `(linum                               ((,class (:foreground ,jbeans-grey-5 :background ,jbeans-grey-0))))
+       `(linum                               ((,class (:foreground ,jbeans-grey-5 :background ,jbeans-grey-2))))
 ;;;;; Ediff
        `(ediff-even-diff-A                   ((,class (:background ,jbeans-grey-2 :foreground ,jbeans-fg))))
        `(ediff-even-diff-B                   ((,class (:background ,jbeans-grey-3 :foreground ,jbeans-fg))))
@@ -239,7 +239,7 @@
        `(git-gutter-fr+-added                ((,class (:foreground ,jbeans-green-2 :background ,jbeans-bg))))
        `(git-gutter-fr+-deleted              ((,class (:foreground ,jbeans-red-5 :background ,jbeans-bg))))
 ;;;;; Magit
-       `(magit-blame-heading                 ((,class (:background ,jbeans-grey-0 :box ,jbeans-green-3 :weight bold :foreground ,jbeans-fg))))
+       `(magit-blame-heading                 ((,class (:background ,jbeans-grey-2 :box ,jbeans-purple-4 :weight bold :foreground ,jbeans-fg))))
        `(magit-blame-date                    ((,class (:background ,jbeans-grey-0 :box ,jbeans-green-3 :weight bold :foreground ,jbeans-green-5))))
        `(magit-blame-name                    ((,class (:background ,jbeans-grey-0 :box ,jbeans-green-3 :weight bold :foreground ,jbeans-red-0))))
        `(magit-blame-hash                    ((,class (:background ,jbeans-grey-0 :box ,jbeans-green-3 :weight bold :foreground ,jbeans-blue-3))))
