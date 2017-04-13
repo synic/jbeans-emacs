@@ -169,7 +169,7 @@
        `(helm-ff-executable                  ((,class (:foreground ,jbeans-green-5))))
 ;;;;; Highlight
        `(highlight                           ((,class (:background ,jbeans-grey-3))))
-       `(hl-line                             ((,class (:background ,jbeans-grey-0))))
+       `(hl-line                             ((,class (:background ,jbeans-grey-2))))
 ;;;;; iSearch
        `(isearch                             ((,class (:foreground ,jbeans-fg :background ,jbeans-red-4))))
        `(isearch-fail                        ((,class (:background ,jbeans-red-4))))
