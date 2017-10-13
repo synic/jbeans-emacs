@@ -53,6 +53,7 @@
       (jbeans-purple-2   (if (display-graphic-p) "#a40073" "#a40073"))
       (jbeans-purple-3   (if (display-graphic-p) "#540063" "#540063"))
       (jbeans-purple-4   (if (display-graphic-p) "#474e90" "#474e90"))
+      (jbeans-purple-5   (if (display-graphic-p) "#2d2e3a" "#2d2e3a"))
       (jbeans-blue-0     (if (display-graphic-p) "#8197bf" "#8197bf"))
       (jbeans-blue-1     (if (display-graphic-p) "#8fbfdc" "#8fbfdc"))
       (jbeans-blue-2     (if (display-graphic-p) "#b2e2fe" "#b2e2fe"))
@@ -191,7 +192,7 @@
        `(helm-ff-executable                  ((,class (:foreground ,jbeans-green-5))))
 ;;;;; Highlight
        `(highlight                           ((,class (:background ,jbeans-grey-3))))
-       `(hl-line                             ((,class (:background ,jbeans-grey-2))))
+       `(hl-line                             ((,class (:background ,jbeans-purple-5))))
 ;;;;; iSearch
        `(isearch                             ((,class (:foreground ,jbeans-fg :background ,jbeans-red-4))))
        `(isearch-fail                        ((,class (:background ,jbeans-red-4))))
