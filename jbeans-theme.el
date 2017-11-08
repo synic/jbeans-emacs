@@ -324,7 +324,7 @@
        `(minibuffer-prompt                   ((,class (:foreground ,jbeans-yellow-3))))
 ;;;;; Modeline
        `(mode-line                           ((,class (:foreground ,jbeans-fg :background ,jbeans-grey-3))))
-       `(mode-line-inactive                  ((,class (:foreground ,jbeans-grey-6 :background ,jbeans-grey-0))))
+       `(mode-line-inactive                  ((,class (:foreground ,jbeans-grey-6 :background ,jbeans-grey-2))))
 ;;;;; NeoTree
        `(neo-dir-link-face                   ((,class (:foreground ,jbeans-blue-0))))
        `(neo-file-link-face                  ((,class (:foreground ,jbeans-fg))))
