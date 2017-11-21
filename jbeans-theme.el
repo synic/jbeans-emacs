@@ -53,7 +53,7 @@
       (jbeans-purple-2   (if (display-graphic-p) "#a40073" "#a40073"))
       (jbeans-purple-3   (if (display-graphic-p) "#540063" "#540063"))
       (jbeans-purple-4   (if (display-graphic-p) "#474e90" "#474e90"))
-      (jbeans-purple-5   (if (display-graphic-p) "#2d2e3a" "#2d2e3a"))
+      (jbeans-purple-5   (if (display-graphic-p) "#202025" "#202025"))
       (jbeans-blue-0     (if (display-graphic-p) "#8197bf" "#8197bf"))
       (jbeans-blue-1     (if (display-graphic-p) "#8fbfdc" "#8fbfdc"))
       (jbeans-blue-2     (if (display-graphic-p) "#b2e2fe" "#b2e2fe"))
@@ -346,7 +346,7 @@
        `(minibuffer-prompt                   ((,class (:foreground ,jbeans-yellow-3))))
 ;;;;; Modeline
        `(mode-line                           ((,class (:foreground ,jbeans-fg :background ,jbeans-grey-3))))
-       `(mode-line-inactive                  ((,class (:foreground ,jbeans-grey-6 :background ,jbeans-grey-0))))
+       `(mode-line-inactive                  ((,class (:foreground ,jbeans-grey-6 :background ,jbeans-grey-2))))
 ;;;;; NeoTree
        `(neo-dir-link-face                   ((,class (:foreground ,jbeans-blue-0))))
        `(neo-file-link-face                  ((,class (:foreground ,jbeans-fg))))
