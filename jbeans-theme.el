@@ -396,6 +396,16 @@
        `(tabbar-modified                     ((,class (:inherit tabbar-default :foreground ,jbeans-green-5 :box (:line-width 1 :color ,jbeans-grey-5 style: released-button)))))
        `(tabbar-selected                     ((,class (:inherit tabbar-default :foreground ,jbeans-blue-0 :box (:line-width 1 :color ,jbeans-fg style: released-button)))))
        `(tabbar-unselected                   ((,class (:inherit tabbar-default :box (:line-width 1 :color ,jbeans-grey-6 style: released-button)))))
+;;;;; Term
+       `(term-color-black                    ((,class (:foreground ,jbeans-bg :background ,jbeans-bg))))
+       `(term-color-red                      ((,class (:foreground ,jbeans-red-2 :background ,jbeans-red-3))))
+       `(term-color-green                    ((,class (:foreground ,jbeans-green-2 :background ,jbeans-green-3))))
+       `(term-color-yellow                   ((,class (:foreground ,jbeans-yellow-3 :background ,jbeans-yellow-2))))
+       `(term-color-blue                     ((,class (:foreground ,jbeans-blue-0 :background ,jbeans-blue-1))))
+       `(term-color-magenta                  ((,class (:foreground ,jbeans-purple-0 :background ,jbeans-purple-3))))
+       `(term-color-white                    ((,class (:foreground ,jbeans-fg :background ,jbeans-fg))))
+       `(term-default-fg-color               ((,class (:inherit term-color-white))))
+       `(term-default-bg-color               ((,class (:inherit term-color-black))))
 ;;;;; Whitespace
        `(trailing-whitespace                 ((,class (:background ,jbeans-red-4))))
 ;;;;; Vertical border
