@@ -222,6 +222,8 @@
        `(lazy-highlight                      ((,class (:foreground ,jbeans-red-4 :background nil))))
 ;;;;; Linum
        `(linum                               ((,class (:foreground ,jbeans-grey-5 :background ,jbeans-grey-2))))
+;;;;; Display line numbers
+       `(line-number                         ((,class (:foreground ,jbeans-grey-5 :background ,jbeans-grey-2))))
 ;;;;; Ediff
        `(ediff-even-diff-A                   ((,class (:background ,jbeans-grey-2 :foreground ,jbeans-fg))))
        `(ediff-even-diff-B                   ((,class (:background ,jbeans-grey-3 :foreground ,jbeans-fg))))
