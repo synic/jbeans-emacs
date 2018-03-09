@@ -15,17 +15,17 @@
 
 
 ;; Copyright (c) 2017 Adam Olsen <arolsen@gmail.com>
-;; 
+;;
 ;; Permission is hereby granted, free of charge, to any person obtaining a copy
 ;; of this software and associated documentation files (the "Software"), to deal
 ;; in the Software without restriction, including without limitation the rights
 ;; to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 ;; copies of the Software, and to permit persons to whom the Software is
 ;; furnished to do so, subject to the following conditions:
-;; 
+;;
 ;; The above copyright notice and this permission notice shall be included in all
 ;; copies or substantial portions of the Software.
-;; 
+;;
 ;; THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 ;; IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 ;; FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -262,7 +262,10 @@
 ;;;;; Git-gutter
        `(git-gutter-fr+-modified             ((,class (:foreground ,jbeans-blue-3 :background ,jbeans-bg))))
        `(git-gutter-fr+-added                ((,class (:foreground ,jbeans-green-2 :background ,jbeans-bg))))
-       `(git-gutter-fr+-deleted              ((,class (:foreground ,jbeans-red-5 :background ,jbeans-bg))))
+       `(git-gutter-fr+-deleted              ((,class (:foreground
+                                                       ,jbeans-red-5 :background ,jbeans-bg))))
+;;;;; Highlighting
+       `(hi-yellow                            ((,class (:box ,jbeans-yellow-1 :foreground ,jbeans-yellow-1 :background, jbeans-grey-4))))
 ;;;;; Magit
        `(magit-blame-heading                 ((,class (:background ,jbeans-grey-2 :box ,jbeans-purple-4 :weight bold :foreground ,jbeans-fg))))
        `(magit-blame-date                    ((,class (:background ,jbeans-grey-0 :box ,jbeans-green-3 :weight bold :foreground ,jbeans-green-5))))
