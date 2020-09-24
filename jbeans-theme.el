@@ -154,6 +154,7 @@
 ;;;;; FCI Ruler
        ;; As of now, this does nothing, because fci-rule-color is not a face yet.
        `(fci-rule-color                      ((,class (:foreground ,jbeans-grey-4 :background ,jbeans-grey-4))))
+       `(fill-column-indicator               ((,class (:foreground ,jbeans-grey-3 :background ,jbeans-bg))))
 ;;;;; Fonts
        `(font-lock-builtin-face              ((,class (:foreground ,jbeans-blue-1))))
        `(font-lock-comment-face              ((,class (:slant italic :foreground ,jbeans-grey-7))))
